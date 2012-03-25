@@ -1,6 +1,7 @@
 #include "beastUtilScript.h"
-#include "beastapi\beastutils.h"
-#include "common\utils.h"
+#include "beastapi/beastutils.h"
+#include "common/utils.h"
+#include <boost/python.hpp>
 
 namespace bp = boost::python;
 

@@ -1,5 +1,7 @@
+#include "beastapitypesScript.h"
 #include "beastrenderpassScript.h"
-#include "beastapi\beastrenderpass.h"
+#include "beastapi/beastrenderpass.h"
+#include <boost/python.hpp>
 
 namespace bp = boost::python;
 

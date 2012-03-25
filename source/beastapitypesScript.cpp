@@ -63,19 +63,19 @@ void BeastAPITypesInterface::registerInterface(boost::python::object& nspace)
 	DECLARE_HANDLE_BINDING(ILBJobUpdateHandle, createNewJobUpdateHandle)
 
 	// register a to-python converter for shared_ptr<ILBMeshHandleWrapper>.
-	objects::class_value_wrapper<
+	bp::objects::class_value_wrapper<
 		shared_ptr<ILBMeshHandleWrapper>
-		, objects::make_ptr_instance<ILBMeshHandleWrapper, objects::pointer_holder<shared_ptr<ILBMeshHandleWrapper>,ILBMeshHandleWrapper> >
+		, bp::objects::make_ptr_instance<ILBMeshHandleWrapper, bp::objects::pointer_holder<shared_ptr<ILBMeshHandleWrapper>,ILBMeshHandleWrapper> >
 	>();
 
 
 	// register a to-python converter for shared_ptr<ILBTextureHandleWrapper>.
-	objects::class_value_wrapper<
+	bp::objects::class_value_wrapper<
 		shared_ptr<ILBTextureHandleWrapper>
-		, objects::make_ptr_instance<ILBTextureHandleWrapper, objects::pointer_holder<shared_ptr<ILBTextureHandleWrapper>,ILBTextureHandleWrapper> >
+		, bp::objects::make_ptr_instance<ILBTextureHandleWrapper, bp::objects::pointer_holder<shared_ptr<ILBTextureHandleWrapper>,ILBTextureHandleWrapper> >
 	>();
 
-	def("rewrap_value_unsigned_char", by_value<unsigned char>::rewrap);
-	def("rewrap_value_float", by_value<float>::rewrap);
-	def("rewrap_value_int", by_value<int>::rewrap);
+	bp::def("rewrap_value_unsigned_char", by_value<unsigned char>::rewrap);
+	bp::def("rewrap_value_float", by_value<float>::rewrap);
+	bp::def("rewrap_value_int", by_value<int>::rewrap);
 }

@@ -1,11 +1,9 @@
 #ifndef BEAST_SCENE_SCRIPT_H
 #define BEAST_SCENE_SCRIPT_H
 
-namespace boost { namespace python { class object; } }
-
-#include <boost/python.hpp>
 #include <beastapi/beastscene.h>
 #include "scriptBase.h"
+#include "beastapitypesScript.h"
 
 DECLARE_DATATYPE_WRAPPER(ILBSceneUpVector, ILB_UP_POS_Y)
 

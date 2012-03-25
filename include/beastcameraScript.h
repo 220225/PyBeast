@@ -1,9 +1,5 @@
 #ifndef BEAST_CAMERA_SCRIPT_H
 #define BEAST_CAMERA_SCRIPT_H
-
-namespace boost { namespace python { class object; } }
-
-#include <boost/python.hpp>
 #include "scriptBase.h"
 
 class BeastCameraInterface :

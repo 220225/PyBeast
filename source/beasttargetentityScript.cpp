@@ -1,4 +1,7 @@
 #include "beasttargetentityScript.h"
+#include "beastUtilScript.h"
+#include "common/vecmath.h"
+#include <boost/python.hpp>
 namespace bp = boost::python;
 
 ILBStatus ILBSetBakeResolution_WrapperFn(ILBTargetEntityHandleWrapper& _target, 

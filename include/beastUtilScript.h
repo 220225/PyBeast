@@ -1,10 +1,8 @@
 #ifndef BEAST_UTIL_SCRIPT_H
 #define BEAST_UTIL_SCRIPT_H
 
-namespace boost { namespace python { class object; } }
-
-#include <boost/python.hpp>
 #include "scriptBase.h"
+#include "beastapitypesScript.h"
 
 DECLARE_BASIC_DATATYPE_WRAPPER(ILBBool, bool, false)
 DECLARE_BASIC_DATATYPE_WRAPPER(ILBInt32, int32, 0)

@@ -1,4 +1,7 @@
 #include "beastlightsourceScript.h"
+#include "beastUtilScript.h"
+#include "common/vecmath.h"
+#include <beastapi/beastlightsource.h>
 namespace bp = boost::python;
 
 ILBStatus ILBCreateSkyLight_WrapperFn(ILBSceneHandleWrapper& _scene,

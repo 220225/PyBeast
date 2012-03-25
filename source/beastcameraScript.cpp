@@ -1,6 +1,8 @@
+#include "beastapitypesScript.h"
+#include "beastUtilScript.h"
 #include "beastcameraScript.h"
 #include "beastapi\beastcamera.h"
-
+#include "common\vecmath.h"
 namespace bp = boost::python;
 
 ILBStatus ILBCreatePerspectiveCamera_WrapperFn(ILBSceneHandleWrapper& _scene, 

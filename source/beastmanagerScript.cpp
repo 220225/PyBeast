@@ -1,5 +1,6 @@
 #include "beastmanagerScript.h"
 #include "beastapitypesScript.h"
+#include <boost/python.hpp>
 namespace bp = boost::python;
 
 ILBStatus ILBCreateManager_WrapperFn(ILBConstString cacheDirectory, 

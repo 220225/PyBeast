@@ -1,11 +1,9 @@
 #ifndef BEAST_LIGHT_SOURCE_SCRIPT_H
 #define BEAST_LIGHT_SOURCE_SCRIPT_H
 
-namespace boost { namespace python { class object; } }
-
 #include <boost/python.hpp>
-#include <beastapi/beastlightsource.h>
 #include "scriptBase.h"
+#include "beastapitypesScript.h"
 
 DECLARE_DATATYPE_WRAPPER(ILBLightType, ILB_LST_DIRECTIONAL)
 DECLARE_DATATYPE_WRAPPER(ILBLightStatsMask, 0)

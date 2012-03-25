@@ -1,5 +1,7 @@
+#include "beastapitypesScript.h"
 #include "beasttextureScript.h"
 #include <beastapi/beasttexture.h>
+#include <boost/python.hpp>
 namespace bp = boost::python;
 
 ILBStatus ILBBeginTexture_WrapperFn(ILBManagerHandleWrapper& _beastManager,

@@ -1,5 +1,8 @@
 #include "beastpointcloudScript.h"
-#include "beastapi\beastpointcloud.h"
+#include "beastapitypesScript.h"
+#include "common/vecmath.h"
+#include "beastapi/beastpointcloud.h"
+#include <boost/python.hpp>
 
 namespace bp = boost::python;
 using boost::shared_ptr;

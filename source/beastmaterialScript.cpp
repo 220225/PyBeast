@@ -1,5 +1,8 @@
+#include "beastapitypesScript.h"
 #include "beastmaterialScript.h"
+#include "common/vecmath.h"
 #include <beastapi/beastmaterial.h>
+#include <boost/python.hpp>
 namespace bp = boost::python;
 
 ILBStatus ILBCreateMaterial_WrapperFn(ILBSceneHandleWrapper& _scene,

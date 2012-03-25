@@ -1,9 +1,6 @@
 #ifndef BEAST_TARGET_SCRIPT_H
 #define BEAST_TARGET_SCRIPT_H
 
-namespace boost { namespace python { class object; } }
-
-#include <boost/python.hpp>
 #include "scriptBase.h"
 
 class BeastTargetInterface :

@@ -1,5 +1,8 @@
+#include "beastapitypesScript.h"
 #include "beastFramebufferScript.h"
+#include "beastUtilScript.h"
 #include "beastapi/beastframebuffer.h"
+#include <boost/python.hpp>
 
 namespace bp = boost::python;
 ILBStatus ILBGetChannelName_WrapperFn(ILBFramebufferHandleWrapper& _fb, 

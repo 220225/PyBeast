@@ -1,4 +1,6 @@
 #include "beastsceneScript.h"
+#include "beastUtilScript.h"
+#include <boost/python.hpp>
 namespace bp = boost::python;
 
 ILBStatus ILBBeginScene_WrapperFn(ILBManagerHandleWrapper& _managerHandleWrapper,

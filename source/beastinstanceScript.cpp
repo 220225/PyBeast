@@ -1,6 +1,9 @@
 #include "beastInstanceScript.h"
+#include "beastapitypesScript.h"
+//#include "beastUtilScript.h"
 #include <beastapi/beastinstance.h>
-#include "common\vecmath.h"
+#include "common/vecmath.h"
+#include <boost/python.hpp>
 
 ILBStatus ILBCreateInstance_WrapperFn(ILBSceneHandleWrapper& scene, 
 									  ILBMeshHandleWrapper& mesh,

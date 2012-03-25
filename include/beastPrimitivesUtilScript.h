@@ -1,9 +1,6 @@
 #ifndef BEAST_PRIMITVIES_UTIL_SCRIPT_H
 #define BEAST_PRIMITVIES_UTIL_SCRIPT_H
 
-namespace boost { namespace python { class object; } }
-
-#include <boost/python.hpp>
 #include "scriptBase.h"
 
 class BeastPrimitivesUtilInterface :

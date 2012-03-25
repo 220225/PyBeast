@@ -1,7 +1,9 @@
 #include <vector>
-
+#include "beastapitypesScript.h"
 #include "beastmeshScript.h"
-#include "beastapi\beastmesh.h"
+#include "common/vecmath.h"
+#include "beastapi/beastmesh.h"
+#include <boost/python.hpp>
 using namespace boost::python;
 
 ILBStatus ILBBeginMesh_WrapperFn(ILBManagerHandleWrapper& _beastManager, 

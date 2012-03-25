@@ -1,0 +1,19 @@
+CMAKE_MINIMUM_REQUIRED( VERSION 2.4.6 )
+MARK_AS_ADVANCED(CMAKE_BACKWARDS_COMPATIBILITY)
+## allow more human readable "if then else" constructs
+SET( CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS TRUE )
+## Use verbose make file
+SET ( CMAKE_VERBOSE_MAKEFILE TRUE )
+
+## project name & version
+PROJECT( PyBeast )
+SET( ${PROJECT_NAME}_MAJOR_VERSION 0 )
+SET( ${PROJECT_NAME}_MINOR_VERSION 1 )
+SET( ${PROJECT_NAME}_PATCH_LEVEL 0 )
+
+## for findmodule.cmake
+SET(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/CMakeScripts)
+
+## Traverse subdirectories
+ADD_SUBDIRECTORY (source)
+

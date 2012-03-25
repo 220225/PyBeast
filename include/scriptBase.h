@@ -1,7 +1,6 @@
 #ifndef SCRIPT_BASE_H_
 #define SCRIPT_BASE_H_
-
-namespace boost { namespace python { class object; } }
+#include <boost/python.hpp>
 
 class IScriptInterface
 {

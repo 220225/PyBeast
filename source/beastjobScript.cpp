@@ -1,7 +1,9 @@
 #include "beastjobScript.h"
+#include "beastUtilScript.h"
+#include <boost/python.hpp>
+#include "beastapi/beastjob.h"
 
 namespace bp = boost::python;
-
 ILBStatus ILBCreateJob_WrapperFn(ILBManagerHandleWrapper& _manager, 
 							  	 ILBConstString _uniqueName,
 							  	 ILBSceneHandleWrapper& _scene,
